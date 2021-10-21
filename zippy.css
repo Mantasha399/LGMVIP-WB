@@ -1,0 +1,1422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar design  */
+.navbar{
+    position: fixed;
+    z-index: 10;
+}
+
+
+.brand .navbar-brand{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 2.2rem;
+    display: flex;
+    position: absolute;
+    left: 50px;
+}
+ 
+.navbar .brand .navbar-brand a{
+    /* float: left; */
+    position: relative;
+    display: flex;
+    left: 50px;
+}
+li{
+    list-style: none;
+}
+.navbar-collapse .navbar-nav{
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+
+}
+.navbar-collapse .navbar-nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+.navbar-collapse .navbar-nav li a{
+    text-decoration: none;
+    font-weight: 300;
+    color:black;
+    left: 800px;
+    position: relative;
+}
+.navbar-collapse .navbar-nav li a:hover{
+    color: white;
+    cursor: pointer;
+}
+/* owl-carousel design  */
+
+.owl-carousel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-carousel img{
+    width: 100%;
+    height: 600px;
+    opacity: 0.4;
+    background-size: cover;
+}
+.carousel-caption{
+    text-align: center;
+    justify-content: space-between;
+    bottom: 277px;
+    left: 420px;
+    position: absolute;
+    line-height: 1;   
+}
+.banner-title{
+    position: relative;
+    line-height: 1;
+    justify-content: space-between;
+    font-size: 40px;
+}
+.text-normal{
+    margin: 20px;
+    line-height: 1;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.owl-slider .owl-dots {
+    text-align: center;
+    bottom: 40px;
+    position: relative;
+  }
+.Banner_Button_start {
+    background: #3DF6E5;
+    background-image: -webkit-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -moz-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -ms-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -o-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -webkit-gradient(to bottom, #3DF6E5, #4119D1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 26px;
+    font-weight: 100;
+    padding: 12px 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    right:  10px;
+    position: relative;
+ }
+ 
+ .Banner_Button_start:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ .Banner_Button_more {
+    background: #3DF6E5;
+    background-image: -webkit-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -moz-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -ms-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -o-linear-gradient(top, #3DF6E5, #4119D1);
+    background-image: -webkit-gradient(to bottom, #3DF6E5, #4119D1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 26px;
+    font-weight: 100;
+    padding: 12px 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    left: 10px;
+    position: relative;
+ }
+ 
+ .Banner_Button_more:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+.banner-btns{
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    margin: -29px;
+}
+/* welcome section design  */
+.wel-header{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 3;
+    padding: 5px;
+    margin: 5px;
+}
+.wel-header hr{
+    width: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    border: 1px solid black;
+    margin: 10px;
+}
+.wel-para{
+    position: relative;
+    font-size: 18px;
+    float: left;
+    margin-right: 30px;
+    left: 300px;
+    width: 30%;
+    line-height: 1.2;
+}
+
+.wel-umberlla .fa-umbrella{
+    position: absolute;
+    font-size: 100px;
+    color: gray;
+    border: 1px soild black;
+    float: right;
+    margin-right: 30px;
+    right: 300px;
+}
+.wel-sec-boxes{
+    position: relative;
+    /* bottom: 397px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 67px;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+    /* right: 203px; */
+    height: 500px;
+    width: 100%;
+
+}
+h3{
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    display: flex;
+    right: 12px;
+}
+.wel-sec-boxes .box2{
+    position:absolute;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 20px ;
+    padding: 25px;
+    border: 2px solid black;
+    /* top: 550px; */
+    right: 52px;
+    height: 372px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.wel-sec-boxes .box{
+    position:absolute;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 20px ;
+    padding: 25px;
+    border: 2px solid black;
+    /* top: 550px; */
+    flex-direction: column;
+    align-items: center;
+}
+.wel-sec-boxes .box3{
+    position:absolute;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 20px ;
+    padding: 25px;
+    border: 2px solid black;
+    /* top: 550px; */
+    left: 52px;
+    flex-direction: column;
+    align-items: center;
+}
+.wel-sec-boxes .box .icon  .fa-bell{
+    position: relative;
+    font-size: 50px;
+    display: flex;
+    width: 60px;
+    overflow: hidden;
+    height: 60px;
+    background-color:rgb(214, 22, 214);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    left: 20px;
+  
+}
+
+.wel-sec-boxes .box2 .icon .fa-envelope{
+    position: relative;
+    font-size: 50px;
+    display: flex;
+    width: 60px;
+    overflow: hidden;
+    height: 60px;
+    background-color:rgb(214, 22, 214);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    left: 25px;
+}
+.wel-sec-boxes .box3 .icon .fa-box{
+    position: relative;
+    font-size: 40px;
+    display: flex;
+    width: 60px;
+    overflow: hidden;
+    height: 60px;
+    background-color:rgb(214, 22, 214);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    left: 20px;
+
+}
+.wel-sec-boxes .box .text{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.wel-sec-boxes .box2 .text{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.wel-sec-boxes .box3 .text{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.wel-sec-boxes .box .wel-btns .welcome-btn{
+    font-size: 17px;
+    color: black;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+.wel-sec-boxes .box .wel-btns .welcome-btn:hover{
+    background-color: yellow;
+}
+.wel-sec-boxes .box2 .wel-btns .welcome-btn{
+    font-size: 17px;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.wel-sec-boxes .box2 .wel-btns .welcome-btn:hover{
+    background-color: yellow;
+}
+.wel-sec-boxes .box3 .wel-btns .welcome-btn{
+    font-size: 17px;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.wel-sec-boxes .box3 .wel-btns .welcome-btn:hover{
+    background-color: yellow;
+}
+.box:hover{
+    background-color: purple;
+    transition:all  0.5s ease;
+    cursor: pointer;
+}
+.box2:hover{
+    background-color: purple;
+    transition:all  0.5s ease;
+    cursor: pointer;
+    
+}
+.box3:hover{
+    background-color: purple;
+    transition:all  0.5s ease;
+    cursor: pointer;
+    
+}
+.pro-sec{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px 0px;
+    margin: 20px 0px;
+}
+.pro-header h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+.pro-sec .pro-box1{
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    width: 400px;
+    height: 600px;
+  
+}
+.pro-sec .pro-box1 .pro-img-details{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(224, 211, 211);
+    /* border: 1px solid rgb(32, 30, 30); */
+}
+.pro-sec .pro-box1 .pro-img-details:hover{
+    background-color: yellow;
+}
+.pro-sec .pro-box1 .pro-img{
+    position:relative;
+    /* font-size: 100px; */
+    display: flex;
+}
+.pro-sec .pro-box1 .pro-img img{
+    position: relative;
+    font-size: 40px;
+    display: flex;
+    width: 336px;
+    overflow: hidden;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.pro-sec .pro-box1 .pro-box-header h3{
+    position: relative;
+    right: 50px;
+
+}
+.pro-sec .pro-box1 .pro-box-para{
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    width:250px;
+    position: relative;
+    left: 60px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+.pro-sec .pro-box1 .pro-box-btn{
+    position: relative;
+    left: 100px;
+  
+    
+}
+.pro-sec .pro-box1 .pro-box-btn .btn-pro{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 5px;
+
+}
+.pro-sec .pro-box1 .pro-box-btn .btn-pro:hover{
+background-color: purple;
+color: white;
+}
+.pro-sec .pro-box2{
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    width: 364px;
+    height: 600px;
+    /* background-color: bisque; */
+    top: 81px;
+    right: 563px;
+    position: absolute;
+
+}
+.pro-sec .pro-box2 .pro-img-details{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(192, 159, 159);
+}
+.pro-sec .pro-box2 .pro-img-details:hover{
+    background-color: yellow;
+}
+.pro-sec .pro-box2 .pro-img{
+    position:relative;
+    /* font-size: 100px; */
+    display: flex;
+}
+.pro-sec .pro-box2 .pro-img img{
+    position: relative;
+    font-size: 40px;
+    display: flex;
+    width: 300px;
+    overflow: hidden;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.pro-sec .pro-box2 .pro-box-header h3{
+    position: relative;
+    right: 50px;
+
+}
+.pro-sec .pro-box2 .pro-box-para{
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+    width:194px;
+    position: relative;
+    left: 60px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+.pro-sec .pro-box2 .pro-box-btn .btn-pro{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 5px;
+    position: relative;
+    left: 85px;
+
+}
+.pro-sec .pro-box2 .pro-box-btn .btn-pro:hover{
+background-color: purple;
+color: white;
+}
+.pro-sec .pro-box3{
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    width: 364px;
+    height: 600px;
+    /* background-color: bisque; */
+    top: 81px;
+    position: absolute;
+    right: 263px;
+}
+.pro-sec .pro-box3 .pro-img-details{
+        width: 400px;
+        height: 250px;
+        background-color: rgb(224, 211, 211);
+}
+.pro-sec .pro-box3 .pro-img-details:hover{
+    background-color: yellow;
+}
+.pro-sec .pro-box3 .pro-img{
+    position:relative;
+    /* font-size: 100px; */
+    display: flex;
+}
+.pro-sec .pro-box3 .pro-img img{
+    position: relative;
+    font-size: 40px;
+    display: flex;
+    width: 315px;
+    overflow: hidden;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.pro-sec .pro-box3 .pro-box-header h3{
+    position: relative;
+    right: 50px;
+
+}
+.pro-sec .pro-box3 .pro-box-para{
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+    width:200px;
+    position: relative;
+    left: 60px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+.pro-sec .pro-box3 .pro-box-btn .btn-pro{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 5px;
+    position: relative;
+    left: 80px;
+
+}
+.pro-sec .pro-box3 .pro-box-btn .btn-pro:hover{
+background-color: purple;
+color: white;
+}
+.pro-sec .pro-box4{
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    width: 364px;
+    height: 600px;
+    /* background-color: bisque; */
+    top: 81px;
+    position: absolute;
+    right: -52px;
+
+}
+.pro-sec .pro-box4 .pro-img-details{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(192, 159, 159);
+}
+.pro-sec .pro-box4 .pro-img-details:hover{
+    background-color: yellow;
+}
+.pro-sec .pro-box4 .pro-img{
+    position:relative;
+    /* font-size: 100px; */
+    display: flex;
+}
+.pro-sec .pro-box4 .pro-img img{
+    position: relative;
+    font-size: 40px;
+    display: flex;
+    width: 312px;
+    overflow: hidden;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.pro-sec .pro-box4 .pro-box-header h3{
+    position: relative;
+    right: 50px;
+
+}
+.pro-sec .pro-box4 .pro-box-para{
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+    width:200px;
+    position: relative;
+    left: 60px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+.pro-sec .pro-box4 .pro-box-btn .btn-pro{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 5px;
+    position: relative;
+    left: 80px;
+
+}
+.pro-sec .pro-box4 .pro-box-btn .btn-pro:hover{
+background-color: purple;
+color: white;
+}
+/* pricing table design start  */
+
+.pricing-sec{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.pricing-sec .pricing-section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.pricing-sec .pricing-section .pricing-header{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 3;
+    padding: 5px;
+    margin: 5px; 
+}
+.pricing-sec .pricing-section .pricing-boxes .pricing-box1{
+    padding: 40px 22px;
+    position: relative;
+    left: 296px;
+    width: 222px;
+    height: 290px;
+}
+.pricing-boxes .pricing-box1 .pricing-header-box{
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+}
+.pricing-boxes .pricing-box1 .pricing-money{
+    font-size: 28px;
+    color: gray;
+    padding: 3px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.pricing-boxes .pricing-box1 .pricing-para-details{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+    padding: 2px;
+}
+.pricing-boxes .pricing-box1 .pricing-btn{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pricing-boxes .pricing-box1 .pricing-btn button{
+    font-size: 16px;
+    padding: 5px 28px;
+    margin: 5px 10px;
+    background-color: #c140c1;
+}
+.pricing-boxes .pricing-box1 .pricing-btn button:hover{
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+}
+
+.pricing-sec .pricing-section .pricing-boxes .pricing-box2{
+    padding: 40px 22px;
+    position: absolute;
+    left: 502px;
+    /* bottom: 227px; */
+    top: 59px;
+    width: 222px;
+    height: 290px;
+}
+.pricing-boxes .pricing-box2 .pricing-header-box{
+    position: relative;
+    font-size: 20px;
+    left: 17px;
+    padding: 5px;
+}
+.pricing-boxes .pricing-box2 .pricing-money{
+    font-size: 28px;
+    color: gray;
+    padding: 3px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.pricing-boxes .pricing-box2 .pricing-para-details{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+    padding: 2px;
+}
+.pricing-boxes .pricing-box2 .pricing-btn{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pricing-boxes .pricing-box2 .pricing-btn button{
+    font-size: 16px;
+    padding: 5px 28px;
+    margin: 5px 10px;
+    background-color: #c140c1;
+}
+.pricing-boxes .pricing-box2 .pricing-btn button:hover{
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+}
+
+.pricing-sec .pricing-section .pricing-boxes .pricing-box3{
+    padding: 40px 22px;
+    position: absolute;
+    left: 711px;
+    width: 222px;
+    height: 290px;
+    top: 58px;
+}
+.pricing-boxes .pricing-box3 .pricing-header-box{
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    left: 17px;
+}
+.pricing-boxes .pricing-box3 .pricing-money{
+    font-size: 28px;
+    color: gray;
+    padding: 3px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.pricing-boxes .pricing-box3 .pricing-para-details{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+    padding: 2px;
+}
+.pricing-boxes .pricing-box3 .pricing-btn{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pricing-boxes .pricing-box3 .pricing-btn button{
+    font-size: 16px;
+    padding: 5px 28px;
+    margin: 5px 10px;
+    background-color: #c140c1;
+}
+.pricing-boxes .pricing-box3 .pricing-btn button:hover{
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+}
+.pricing-boxes hr{
+    height: 80%;
+    width: 0;
+    height: 80%;
+    width: 0;
+    position: absolute;
+    top: 46px;
+    right: 12px;
+}
+.pro-video-section{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 100px;
+    background-color: rgb(172, 97, 172);
+}
+.pro-video-section .pro-video-sec{
+    width: 100%;
+    height: 50%;
+}
+.pro-video-sec .pro-video-header{
+    justify-content: center;
+    text-align: center;
+    padding:20px 0;
+}
+.pro-video-sec .pro-video-header h1{
+    font-size: 35px;
+    margin: 10px 0;
+    color: white;
+}
+.video-slide {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e600ac;
+  }
+.pro-video-sec .owl-carousel .item-video {
+    height: 500px;
+  }
+.owl-dots {
+    text-align: center;
+    margin-top: 80px;
+  }
+.owl-dot {
+    display: inline-block;
+  }
+.owl-dot span {
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    margin: 5px 3px;
+  }
+.owl-dot.active span {
+    background-color:gray;
+  }
+.team-sec{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      top: 119px;
+  }
+.team-sec .section-team{
+      width: 100%;
+      height: 100%;
+  }
+.team-sec .section-team .team-intro-header{
+      position: absolute;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      position: relative;
+   
+  }
+.team-intro-header h1{
+      justify-content: center;
+      font-size: 30px;
+      padding: 20px 0;
+    }
+.intro-team .team1-intro{
+        position: relative;
+        width: 224px;
+        height: 268px;
+        left: 314px;
+    padding: 20px 0px;
+    }
+.intro-team .team1-intro .team-intro-img{
+        position: relative;
+        width: 132px;
+        height: 140px;
+    }
+.intro-team .team1-intro .team-intro-img img{
+    position: relative;
+    border-radius: 100%;
+    height: 135px;
+    width: 105px;
+    }
+.intro-team .team1-intro .intro-team-name{
+    padding: 10px 0 0 0;
+    position: relative;
+}
+.intro-team .team1-intro .team-intro-role{
+    color: gray;
+    padding: 5px 0 0 0;
+}
+.intro-team .team2-intro{
+    position: absolute;
+    width: 224px;
+    height: 268px;
+    top: 74px;
+    left: 549px;
+    padding: 20px 0px;
+}
+.intro-team .team2-intro .team-intro-img{
+    position: relative;
+    width: 132px;
+    height: 140px;
+}
+.intro-team .team2-intro .team-intro-img img{
+position: relative;
+border-radius: 100%;
+height: 135px;
+width: 105px;
+}
+.intro-team .team2-intro .team-intro-img .add-font-hover{
+    height: 99px;
+    top: 1px;
+    position: absolute;
+    width: 106px;
+}
+
+.intro-team .team2-intro .team-intro-img .add-font-hover .add-font-icon{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+.intro-team .team2-intro .team-intro-img .add-font-hover:hover{
+    background-color: rgb(160, 152, 152);
+}
+.intro-team .team2-intro .team-intro-img .add-font-hover .add-font-icon i:hover{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+}
+.intro-team .team2-intro .team-intro-img .add-font-hover .add-font-icon .fa-twitter:hover{
+    color: blue;
+}
+.intro-team .team2-intro .team-intro-img .add-font-hover .add-font-icon .fa-facebook-f:hover{
+    color: rgb(14, 173, 221);
+}
+.intro-team .team2-intro .team-intro-img .add-font-hover .add-font-icon .fa-instagram:hover{
+    color: pink;
+}
+.intro-team .team2-intro .intro-team-name{
+padding: 10px 0 0 0;
+position: relative;
+}
+.intro-team .team2-intro .team-intro-role{
+color: gray;
+padding: 5px 0 0 0;
+}
+.intro-team .team3-intro{
+    position: absolute;
+    width: 224px;
+    height: 268px;
+    padding: 20px 0px;
+    top: 74px;
+    right: 240px;
+}
+.intro-team .team3-intro .team-intro-img{
+    position: relative;
+    width: 132px;
+    height: 140px;
+}
+.intro-team .team3-intro .team-intro-img img{
+position: relative;
+border-radius: 100%;
+height: 135px;
+width: 105px;
+}
+.intro-team .team3-intro .intro-team-name{
+padding: 10px 0 0 0;
+position: relative;
+}
+.intro-team .team3-intro .team-intro-role{
+color: gray;
+padding: 5px 0 0 0;
+}
+.intro-team .team4-intro{
+    position: absolute;
+    width: 224px;
+    height: 268px;
+    left: 542px;
+    padding: 20px 0px;
+    top: 343px;
+}
+.intro-team .team4-intro .team-intro-img{
+    position: relative;
+    width: 132px;
+    height: 140px;
+}
+.intro-team .team4-intro .team-intro-img img{
+position: relative;
+border-radius: 100%;
+height: 135px;
+width: 105px;
+}
+.intro-team .team4-intro .intro-team-name{
+padding: 10px 0 0 0;
+position: relative;
+}
+.intro-team .team4-intro .team-intro-role{
+color: gray;
+padding: 5px 0 0 0;
+}
+.intro-team .team5-intro{
+    position: relative;
+    width: 224px;
+    height: 268px;
+    left: 314px;
+padding: 20px 0px;
+}
+.intro-team .team5-intro .team-intro-img{
+    position: relative;
+    width: 132px;
+    height: 140px;
+}
+.intro-team .team5-intro .team-intro-img img{
+position: relative;
+border-radius: 100%;
+height: 135px;
+width: 105px;
+}
+
+.intro-team .team5-intro .intro-team-name{
+padding: 10px 0 0 0;
+position: relative;
+}
+.intro-team .team5-intro .team-intro-role{
+color: gray;
+padding: 5px 0 0 0;
+}
+.intro-team .team6-intro{
+    position: absolute;
+    width: 224px;
+    height: 268px;
+    /* left: 314px; */
+    right: 237px;
+    padding: 20px 0px;
+    top: 341px;
+}
+.intro-team .team6-intro .team-intro-img{
+    position: relative;
+    width: 132px;
+    height: 140px;
+}
+.intro-team .team6-intro .team-intro-img img{
+position: relative;
+border-radius: 100%;
+height: 135px;
+width: 105px;
+}
+.intro-team .team6-intro .intro-team-name{
+padding: 10px 0 0 0;
+position: relative;
+}
+.intro-team .team6-intro .team-intro-role{
+color: gray;
+padding: 5px 0 0 0;
+}
+
+/* team */
+.team1-sec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 141px;
+    background-color: gray;
+}
+.team1-sec .container{
+    width: 100%;
+    height: 396px;
+} 
+.team1-sec .container .title{
+    justify-content: center;
+    text-align: center;
+    padding: 13px 0px;
+}
+.team1-sec .container .title h2{
+    font-size: 30px;
+}
+.team1-sec .container .team-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.team1-sec .container .team-wrapper .single-team1{
+    width: 300px;
+    height: 272px;
+    position: relative;
+    right: -225px;
+    padding: 19px 0px;
+    background-color: azure;
+}
+.team1-sec .container .team-wrapper .single-team1:hover{
+    background-color: purple;
+}
+.team-wrapper .single-team1 .team-img{
+    height: 273px;
+    position: relative;
+    left: 36px;
+}
+.single-team1 .team-img img{
+    position: relative;
+    height: 216px;
+    width: 219px;  
+}
+.single-team1 .team-footer{
+    position: absolute;
+    top: 246px;
+    justify-content: center;
+    text-align: center;
+    right: 43px;
+}
+.single-team1 .team-footer:hover{
+    color: white;
+}
+.team1-sec .container .team-wrapper .single-team2{
+    width: 300px;
+    height: 272px;
+    top: -273px;
+    position: relative;
+    /* right: -395px; */
+    left: 568px;
+    padding: 19px 0px;
+    background-color: azure;
+}
+.team1-sec .container .team-wrapper .single-team2:hover{
+    background-color: purple;
+}
+.team-wrapper .single-team2 .team-img{
+    height: 273px;
+    position: relative;
+    left: 36px;
+}
+.single-team2 .team-img img{
+    position: relative;
+    height: 216px;
+    width: 219px;  
+}
+.single-team2 .team-footer{
+    position: absolute;
+    top: 246px;
+    justify-content: center;
+    text-align: center;
+    right: 43px;
+}
+.single-team2 .team-footer:hover{
+    color: white;
+}
+.team1-sec .container .team-wrapper .single-team3{
+    width: 300px;
+    height: 272px;
+    top: -543px;
+    position: relative;
+    /* right: -395px; */
+    left: 904px;
+    padding: 19px 0px;
+    background-color: azure;
+}
+.team1-sec .container .team-wrapper .single-team3:hover{
+    background-color: purple;
+}
+.team-wrapper .single-team3 .team-img{
+    height: 273px;
+    position: relative;
+    left: 36px;
+}
+.single-team3 .team-img img{
+    position: relative;
+    height: 216px;
+    width: 219px;  
+}
+.single-team3 .team-footer{
+    position: absolute;
+    top: 246px;
+    justify-content: center;
+    text-align: center;
+    right: 43px;
+}
+.single-team3 .team-footer:hover{
+    color: white;
+}
+.from-sec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 240px;
+}
+.from-sec .bg-img-from{
+    width: 100%;
+    height: 339px;
+}
+.from-sec .from-header{
+    position: absolute;
+    /* justify-content: center;
+    text-align: center; */
+}
+.from-sec .from-header h1{
+    text-align: center;
+    position: absolute;
+    left: 438px;
+    padding: 10px;
+    width: 243px;
+    top: 54px;
+}
+.from-sec .bg-img-from img{
+    width: 100%;
+    height: 300px;
+}
+.from-sec .input-text{
+    position: relative;
+    /* top: 16px; */
+    bottom: 217px;
+    font-size: 25px;
+    left: 384px;
+    border: 1px solid black;
+}
+.from-sec .button-signin{
+    position: absolute;
+    right: 497px;
+    top: 122px;
+}
+.from-sec .button-signin button{
+    font-size: 20px;
+    padding: 2px 5px;
+    background-color: yellow;
+    color: black;
+}
+.from-sec .btn-signup{
+    position: absolute;
+    right: 489px;
+    top: 156px;
+
+}
+.from-sec .btn-signup button{
+    font-size: 20px;
+    padding: 2px 5px;
+    background-color: purple;
+    color: white;
+}
+.blog-sec{
+    position: relative;
+    top: 150px;
+}
+.blog {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .blog h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .blog .card1 {
+    margin-top: 30px;
+    width: 283px;
+    border: 2px solid #000;
+    height: 371px;
+  }
+  .blog .card1 img {
+    height: 250px;
+    width: 100%;
+  }
+  .blog .card2 {
+    margin-top: 30px;
+    width: 283px;
+    border: 2px solid #000;
+    height: 371px;
+    bottom: 397px;
+    position: relative;
+    left: 381px;
+  }
+  .blog .card2 img {
+    height: 250px;
+    width: 100%;
+  }
+  .blog .card3 {
+    margin-top: 30px;
+    width: 283px;
+    border: 2px solid #000;
+    height: 371px;
+    position: absolute;
+    top: 33px;
+    right: 70px;
+  }
+  .blog .card3 img {
+    height: 250px;
+    width: 100%;
+  }
+.contact-sec{
+    position: relative;
+    top: -164px;
+    width: 100%;
+    height: 100%;
+}
+.contact-sec .contact-us{
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.contact-sec .contact-us h1{
+    align-items: center;
+    text-align: center;
+}
+.contact-sec input[type = "text"], textarea{
+    width: 50%;
+    font-size: 0.95rem;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 0.7rem;
+    border: none;
+    background: #fafafa;
+    margin: 0.6rem 0;
+    border-radius: 3px;
+}
+.contact-sec input[type = "text"]::placeholder{
+    color:black;
+    opacity: 0.6;
+    border: 1px solid gray ;
+}
+textarea::placeholder{
+    color:  black;
+    opacity: 0.6;
+}
+.form-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.btn-form{
+    background:purple;
+    border: none;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: 1.5rem auto;
+}
+.footer-sec{
+    position: relative;
+    /* top: 249px; */
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+}
+.footer-sec .footer-social-icons{
+    font-size: 25px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    left: 414px;
+}
+.footer-sec .footer-social-icons .sq-icon{
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+.footer-sec .footer-social-icons .sq-icon:hover{
+    background-color: purple;
+    color: white;
+}
+.footer-sec .footer-text{
+    position: relative;
+    font-size: 16px;
+    left: 500px;
+    top: 15px;
+}
